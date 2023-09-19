@@ -1,4 +1,9 @@
 console.log("loaded in correctly uwu");
+
 $("h2").mouseover(function () {
-    alert("howdy means hello in Texan!");
+    $("#popup").fadeIn(); 
+});
+
+$("h2").mouseout(function () {
+    $("#popup").fadeOut(); 
 });

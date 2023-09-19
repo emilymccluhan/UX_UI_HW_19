@@ -12,11 +12,15 @@
    }
 .buttons {
     margin: 5px;
+    font-size: large;
 }
 .howdy {
     display: flex;
     flex: 1;
     justify-content: center;
+    color: #b6dde5;
+    font-size: xx-large;
+
 }
 .welcome {
     display: flex;
@@ -24,8 +28,8 @@
     justify-content: center;
 }
 img.pfp {
-    width: 300px;
-    height: 300px;
+    width: 414px;
+    height: 736px;
     border-radius: 10%;
     float: left;
 }
@@ -71,4 +75,21 @@ img.pfp {
 }
 .space {
     height: 50px;
+}
+.my-popup {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5d6e1; 
+    color: #ffffff; 
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px; 
+    width: 300px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
 }
